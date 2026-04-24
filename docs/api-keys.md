@@ -1,5 +1,12 @@
 # API Keys Setup
 
+## Higgsfield API Keys
+Used for AI video and image generation via Higgsfield (platform.higgsfield.ai).
+- **Key ID:** `HIGGSFIELD_API_KEY_ID`
+- **Key Secret:** `HIGGSFIELD_API_KEY_SECRET`
+- Save to: `~/.config/hermes/.env`
+- Also saved to Paperclip: `~/.paperclip/instances/default/env/higgsfield.env`
+
 ## ElevenLabs API Key
 Used for audio transcription via ElevenLabs Scribe v1.
 - Get your key from: https://elevenlabs.io/app/settings/api-keys
